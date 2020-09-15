@@ -1,3 +1,5 @@
+#Hide secrets
+secrets.tf
 # Local .terraform directories
 **/.terraform/*
 
