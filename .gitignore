@@ -1,5 +1,7 @@
 #Hide secrets
 secrets.tf
+**/keypair
+**/keypair.pub
 # Local .terraform directories
 **/.terraform/*
 
