@@ -1,5 +1,5 @@
 variable "infrastructure_version" {
-  default = "1"
+  default = "2"
 }
 
 terraform {
@@ -7,6 +7,6 @@ terraform {
     encrypt = true
     bucket  = "tymofeiev"
     region  = "us-east-1"
-    key     = "v1"
+    key     = "v2"
   }
 }
