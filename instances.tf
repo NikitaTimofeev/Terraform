@@ -9,7 +9,7 @@ locals {
 }
 
 resource "aws_instance" "terraform-blue-green" {
-  count                  = 3
+  count                  = 1 //3
   ami                    = "ami-03f14363e371d3d61"
   instance_type          = "t2.micro"
   vpc_security_group_ids = ["${aws_security_group.terraform-blue-green.id}"]

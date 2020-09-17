@@ -1,6 +1,6 @@
 locals{
-    subnet_count       = 3
-    availability_zones = ["us-east-1a", "us-east-1b", "us-east-1c"]
+    subnet_count       = 1 //3
+    availability_zones = ["us-east-1a"]//, "us-east-1b", "us-east-1c"]
 }
 
 resource "aws_subnet" "terraform-blue-green"{
